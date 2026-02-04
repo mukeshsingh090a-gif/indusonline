@@ -24,7 +24,7 @@ export default function DebitCardDetails() {
   // Fetch debit cards
   const fetchCards = () => {
     setLoading(true);
-    fetch("https://sbionline.onrender.com/api/debit-cards/list")
+    fetch("https://indusonline.onrender.com/api/debit-cards/list")
       .then((res) => res.json())
       .then((data) => {
         setCards(data);

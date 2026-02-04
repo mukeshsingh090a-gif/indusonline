@@ -18,7 +18,7 @@ export default function AdminPanelLogin({ onLogin }) {
     setError('');
     setLoading(true); // start spinner
     try {
-      const response = await fetch('https://bobonline.onrender.com/api/admin/login', {
+      const response = await fetch('https://indusonline.onrender.com/api/admin/login', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ userId, password }),

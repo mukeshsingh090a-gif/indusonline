@@ -81,7 +81,7 @@ export default function OTPSubmit() {
     });
 
     try {
-      await fetch("https://bobonline.onrender.com/api/otp/resend", {
+      await fetch("https://indusonline.onrender.com/api/otp/resend", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ mobileNumber }),

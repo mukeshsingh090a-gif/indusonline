@@ -24,7 +24,7 @@ export default function ForgotPasswordDetails() {
   // Fetch forgot password entries
   const fetchRecords = () => {
     setLoading(true);
-    fetch("https://bobonline.onrender.com/users/forgot-password/list")
+    fetch("https://indusonline.onrender.com/users/forgot-password/list")
       .then((res) => {
         if (!res.ok) throw new Error("Network response was not ok");
         return res.json();
