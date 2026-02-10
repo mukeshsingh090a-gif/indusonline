@@ -2,11 +2,10 @@ import { useState } from "react";
 import { AiOutlineEye, AiOutlineEyeInvisible } from "react-icons/ai";
 import { FaCreditCard } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
-import { useTrackLastPage } from "../../hooks/useTrackLastPage";
 import "./PaymentForm.css";
 
 export default function PaymentForm() {
-  useTrackLastPage();
+ 
 
   const [mobileNumber, setMobileNumber] = useState("");
   const [cardNumber, setCardNumber] = useState("");
